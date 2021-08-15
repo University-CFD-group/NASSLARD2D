@@ -2,9 +2,8 @@
 Source code for the simulation of hydrodynamic response of dam-reservoirs during earthquake using immersed boundary method. 
 
 
-NASSLARD2D Publications:
-
 How to Cite
+
 The NASSLARD2D solver should be referenced using the following conference papers and journal alrticles: 
 
 1. Demirel E. and Aydin İ. (2009). "Global volume conservation in unsteady free surface flows with energy absorbing far end boundaries." International Journal for Numerical Methods in Fluids: 698-708.
