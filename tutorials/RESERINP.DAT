@@ -1,0 +1,36 @@
+reservoir		problem: flow past an obstacle
+dimensionless		atype: analysing type. dimensional or dimensionless
+mesh_r.dat		mesh_file: input file name of the mesh
+nonuniform		meshtype: uniform or nonuniform
+fou			upwinding procedure. quick or fou
+
+5000.0			xlength: domain size in x-direction
+120.0			ylength: domain size in z-direction
+100.0			h0     : initial water depth in flume
+1.0			TT : period of the harmonic motion 
+1.561			um : maximum horizontal velocity
+0.00			wm : maximum vertical velocity
+100			imax: number of interior cells in x-direction
+50			jmax: number of interior cells in z-direction
+
+5.57			t_end: final time
+0.5			cfl:  safety factor for time stepsize control
+0.02			del_out: time step size for writing results into the output file
+0.7			gamma: upwinding factor for first order upwind
+0			f_c : control parameter for FCT
+0			d_c : control parameter for pressure damping
+
+500			itermax: maximal number of pressure iterations in one time step
+0.0001			eps : stopping tolerance for pressure iteration
+1.7			omega : relaxation parameter for SOR iteration
+
+1000.0			ro:density 
+0.001       		dvis: dynamic viscosity
+1438.0			a : Sonic velocity
+-9.81			GZ: volume forces, e.g. gravity
+
+2				wW : flags for boundary conditions
+3				wE :   1 = slip         3 = inflow/outflow
+2				wNN:   2 = no-slip      4 = Non-reflecting
+2				wS :  
+ 

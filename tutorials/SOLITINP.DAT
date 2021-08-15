@@ -1,0 +1,36 @@
+solitary		problem: flow past an obstacle
+dimensional		atype: analysing type. dimensional or dimensionless
+mesh_s.dat		mesh_file: input file name of the mesh
+uniform			meshtype: uniform or nonuniform
+fou			upwinding procedure. QUICK or FOU
+
+4.0			xlength: domain size in x-direction
+0.1			ylength: domain size in y-direction
+0.0762			h0     : initial water depth in flume
+1.0			TT : period of the harmonic motion
+0.049394		um : maximum horizontal velocity
+0.00			wm : maximum vertical velocity
+300			imax: number of interior cells in x-direction
+25			jmax: number of interior cells in y-direction
+
+1.0			t_end: final time
+0.5             	cfl:  safety factor for time stepsize control
+0.1			del_out: time step size for writing results into the output file
+0.7			gamma: upwinding factor for first order upwind
+1			f_c : control parameter for FCT
+0			d_c : control parameter for pressure damping
+
+3000			itermax: maximal number of pressure iterations in one time step
+0.1			eps : stopping tolerance for pressure iteration
+1.7			omg : relaxation parameter for SOR iteration
+
+1000.0			ro  : density (kg/m3)
+0.001       		dvis: viscosity
+1438.0			a : sound speed in water
+-9.81			GZ : gravitational acceleration
+
+2				wW: flags for boundary conditions
+4				wO:   1 = slip         3 = inflow/outflow
+2				wN:   2 = no-slip      4 = periodic
+2				wS:  
+ 

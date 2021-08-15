@@ -1,0 +1,36 @@
+circle			problem: flow past a circular cylinder
+dimensional		atype: analysing type. dimensional or dimensionless
+mesh_dc.dat		mesh_file: input file name of the mesh
+variable		meshtype: uniform or nonuniform
+fou			upwinding procedure. quick or fou
+
+40.0			xlength: domain size in x-direction
+30.0			ylength: domain size in y-direction
+15.0151			h0     : initial water depth in flume
+1.0			TT : period of the harmonic motion
+1.0			um : maximum horizontal velocity
+0.00			wm : maximum vertical velocity
+100			imax: number of interior cells in x-direction
+40			jmax: number of interior cells in y-direction
+
+210.01			t_end: final time
+0.05             	cfl:  safety factor for time stepsize control
+0.1			del_out: time step size for writing results into the output file
+0.7			gamma: upwinding factor for first order upwind
+0			f_c : control parameter for FCT
+0			d_c : control parameter for pressure damping
+
+50			itermax: maximal number of pressure iterations in one time step
+0.001			eps : stopping tolerance for pressure iteration
+1.7			omg : relaxation parameter for SOR iteration
+
+1.0			ro  : density (kg/m3)
+0.0033			dvis: viscosity
+1438.0			a : sound speed in water
+0.0			GZ : gravitational acceleration
+
+3			wW: flags for boundary conditions
+3			wO:   1 = slip         3 = inflow/outflow
+1			wN:   2 = no-slip      4 = periodic
+1			wS:  
+ 
