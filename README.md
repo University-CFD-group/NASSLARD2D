@@ -3,7 +3,6 @@
 
 A ghost-cell immersed boundary method is used for the numerical simulation of laminar flows interacting with a stationary solid boundary. The numerical method employs a second order accurate two-step projection algorithm to solve Navier-Stokes equations on a staggered grid system. The laminar flow over a stationary circular cylinder is simulated to demonstrate the accuracy of the present numerical method, and the results are compared with previous numerical and analytical results for different Reynolds numbers. The comparisons show that the present immersed boundary method and the computer code can accurately simulate the flow over rigid bodies with complex geometries.
 
-![Flow over a circular cylinder](https://drive.google.com/open?id=1IPQdX5-V8gLJ6zwiJyC0KbdfYJGGIKfz)
 
 # How to Cite
 
