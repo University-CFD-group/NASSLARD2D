@@ -1,7 +1,7 @@
 # NASSLARD2D
 This repository provides the NASSLARD2D solver.
 
-![enter image description here](https://user-images.githubusercontent.com/30440239/129484757-7cd72e1f-9929-4c08-b5a1-fe8c4fda1190.png)
+![enter image description here](https://user-images.githubusercontent.com/30440239/129484860-df3005d6-4531-40c8-845d-001c0b042751.png)
 
 # Features
 
