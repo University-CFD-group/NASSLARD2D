@@ -1,6 +1,8 @@
 # NASSLARD2D
 This repository provides the NASSLARD2D solver.
 
+https://user-images.githubusercontent.com/30440239/129484757-7cd72e1f-9929-4c08-b5a1-fe8c4fda1190.png
+
 # Features
 
 A ghost-cell immersed boundary method is used for the numerical simulation of laminar flows interacting with a stationary solid boundary. The numerical method employs a second order accurate two-step projection algorithm to solve Navier-Stokes equations on a staggered grid system. The laminar flow over a stationary circular cylinder is simulated to demonstrate the accuracy of the present numerical method, and the results are compared with previous numerical and analytical results for different Reynolds numbers. The comparisons show that the present immersed boundary method and the computer code can accurately simulate the flow over rigid bodies with complex geometries.
