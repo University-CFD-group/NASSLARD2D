@@ -21,3 +21,6 @@ The NASSLARD2D solver should be referenced using the following conference papers
 7. Demirel E.  Numerical Simulation of Flow over Complex Boundaries Using a Ghost Cell Immersed Boundary Method.  International Conference on Civil and Environmental Engineering, May 2015.
 
 8. Demirel E. and Aydin İ. (2016). "Numerical Simulation and Formulation of Wave Run Up on Dam Face due to Ground Oscillations Using Major Earthquake Acceleration Records." Journal of Engineering Mechanics (ASCE): 142-148.
+
+Developers 
+Ender Demirel, PhD
