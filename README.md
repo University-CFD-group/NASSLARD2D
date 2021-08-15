@@ -1,12 +1,11 @@
 # NASSLARD2D
 Features
 
-Source code for the simulation of hydrodynamic response of dam-reservoirs during earthquake using immersed boundary method. 
-
+A ghost-cell immersed boundary method is used for the numerical simulation of flow interacting with a stationary solid boundary. The numerical method employs a second order accurate two-step projection algorithm to solve Navier-Stokes equations on a staggered grid system. The laminar flow over a stationary circular cylinder is simulated to demonstrate the accuracy of the present numerical method, and the results are compared with previous numerical and analytical results for different Reynolds numbers. The comparisons show that the present immersed boundary method and the computer code can accurately simulate the flow over rigid bodies with complex geometries. 
 
 How to Cite
 
-The NASSLARD2D solver should be referenced using the following conference papers and journal alrticles: 
+The NASSLARD2D solver should be referenced using the following conference papers and journal articles: 
 
 1. Demirel E. and Aydin İ. (2009). "Global volume conservation in unsteady free surface flows with energy absorbing far end boundaries." International Journal for Numerical Methods in Fluids: 698-708.
 
@@ -25,4 +24,5 @@ The NASSLARD2D solver should be referenced using the following conference papers
 8. Demirel E. and Aydin İ. (2016). "Numerical Simulation and Formulation of Wave Run Up on Dam Face due to Ground Oscillations Using Major Earthquake Acceleration Records." Journal of Engineering Mechanics (ASCE): 142-148.
 
 Developers 
+
 Ender Demirel, PhD
